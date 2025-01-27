@@ -83,7 +83,6 @@ In **Milestone 3** of the e-commerce application project, the focus shifts to se
 This milestone lays the foundation for the backend by setting up an efficient architecture, enabling database interactions, and ensuring error resilience. These skills will be invaluable as you progress toward building complex backend functionalities and APIs in future milestones. 
 
 ---
-
 **milestone4**
 
 ### Project Description - Milestone 4  
