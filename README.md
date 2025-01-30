@@ -128,3 +128,39 @@ In **Milestone 4** of the e-commerce application project, the focus is on buildi
 ---
 
 This milestone focuses on enhancing the backend’s capability to manage user data and file uploads, setting the stage for integrating user profiles, authentication, and other advanced features in future milestones.
+
+**milestone 5**
+
+# Sign-Up Page
+
+## Description
+This project includes a **Sign-Up Page** built using **React** and **Tailwind CSS**. The form allows users to register by providing their **Name, Email, and Password**. It includes **form validation** to ensure proper input before submission.
+
+## Features
+- **User-friendly form** with Name, Email, and Password fields.
+- **Validation checks:**
+  - Name is required.
+  - Email must be in a valid format.
+  - Password must be at least 6 characters long.
+- **Error messages** for invalid input.
+- **Clean and responsive UI** with Tailwind CSS.
+
+
+**milestone 6**
+
+in milestone 6 
+Understand how to encrypt the passwords before saving.
+Know how to store complete user data securely in the database.
+Protect User Data: Keeps passwords safe if hackers access the database.
+Privacy: Ensures user passwords aren’t visible to anyone.
+Compliance: Follows security laws like GDPR and PCI-DSS.
+Stops Password Theft: Encrypted passwords can’t be easily stolen or guessed.
+
+Encrypt the Password:
+
+Use bcrypt to hash the user's password during signup.
+Save the hashed password in the database instead of plain text.
+Store Complete User Data:
+
+Save all the user's data (e.g., name, email, etc.) in the database while ensuring that the password remains encrypted.
+
