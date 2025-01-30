@@ -163,3 +163,4 @@ Save the hashed password in the database instead of plain text.
 Store Complete User Data:
 
 Save all the user's data (e.g., name, email, etc.) in the database while ensuring that the password remains encrypted.
+
