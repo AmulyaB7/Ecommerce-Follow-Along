@@ -2,16 +2,14 @@
 import React from 'react'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import './App.css'
-import {Login} from './Routes/Routes'
+import {Login, Signup} from './Routes/Routes'
 const App = () => {
   return (
     <BrowserRouter>
     <Routes>
-      {/* <h1>hi</h1> */}
-      <Route path='/' element={<h1>welcome </h1>}/>
       <Route path='/login' element={<Login/>}/>
+      <Route path='/signup' element={<Signup/>}/>
     </Routes>
-
     </BrowserRouter>
   )
 }
