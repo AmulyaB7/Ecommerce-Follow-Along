@@ -168,3 +168,9 @@ Save all the user's data (e.g., name, email, etc.) in the database while ensurin
 updated login.jsx and user.js(controller)
 installed axios using (npm i axios)
 updated login details in user.js
+
+## milestone 8
+
+Learned how to create a card component.
+Learned how to display those cards on the products page.
+created home.jsx in pages and product.jsx in controller
