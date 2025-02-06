@@ -164,3 +164,7 @@ Store Complete User Data:
 
 Save all the user's data (e.g., name, email, etc.) in the database while ensuring that the password remains encrypted.
 
+## milestone 7
+updated login.jsx and user.js(controller)
+installed axios using (npm i axios)
+updated login details in user.js
