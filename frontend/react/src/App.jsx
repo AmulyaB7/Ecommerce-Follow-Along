@@ -2,8 +2,9 @@
 import React from 'react'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import './App.css'
-import {Login, Signup} from './Routes/Routes'
+import {CreateProduct, Login, Signup} from './Routes/Routes'
 import Home from './pages/Home'
+
 const App = () => {
   return (
     <BrowserRouter>
@@ -11,6 +12,7 @@ const App = () => {
       <Route path='/' element={<Home/>}/>
       <Route path='/login' element={<Login/>}/>
       <Route path='/signup' element={<Signup/>}/>
+      <Route path='/createProduct' element={<CreateProduct/>}/>
     </Routes>
     </BrowserRouter>
   )
