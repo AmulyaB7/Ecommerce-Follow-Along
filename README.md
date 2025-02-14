@@ -198,3 +198,9 @@ to write an endpoint that will send data from extract and send data from mongodb
 to receive data at frontend -How to display that data dynamically using product card created earlier.
 
 Wrote an endpoint that will send all products data to frontend In frontend write an function to get all the data Display these data dynamically passing to product card component
+
+## milestone 12
+Wrote an endpoint that will send all products with user mail to frontend In frontend write an function to get all the data Display these data dynamically passing to product card component
+
+to write an endpoint that will send data by filtering with my mail and send data from mongodb.
+to receive data at frontend -How to display that data dynamically using product card created earlier.
