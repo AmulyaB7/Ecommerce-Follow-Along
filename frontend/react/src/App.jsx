@@ -2,7 +2,7 @@
 import React from 'react'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import './App.css'
-import {CreateProduct, Login, Signup} from './Routes/Routes'
+import {CreateProduct, Login, MyProducts, Signup} from './Routes/Routes'
 import Home from './pages/Home'
 
 const App = () => {
@@ -13,6 +13,7 @@ const App = () => {
       <Route path='/login' element={<Login/>}/>
       <Route path='/signup' element={<Signup/>}/>
       <Route path='/createProduct' element={<CreateProduct/>}/>
+      <Route path='/MyProducts' element={<MyProducts/>}/>
     </Routes>
     </BrowserRouter>
   )

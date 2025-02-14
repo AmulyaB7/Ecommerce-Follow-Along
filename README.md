@@ -174,3 +174,27 @@ updated login details in user.js
 Learned how to create a card component.
 Learned how to display those cards on the products page.
 created home.jsx in pages and product.jsx in controller
+
+## milestone 9
+
+**creating a product form**
+configured state management to handle form inputs efficiently.
+Validated user inputs before submission to ensure accurate product data. 
+
+## milestone 10
+
+**Product Schema**
+Define the structure of product data (e.g., name, description, price, image URL) using Mongoose. -Ensure each field has proper validation (e.g., required fields, correct data types).
+
+**Endpoint Creation**
+Build a POST endpoint to receive product data.
+Validate and save the product details to MongoDB.
+
+**Validation**
+Ensures that only valid data is saved in the database, maintaining data integrity and preventing errors.
+
+## milestone 11
+to write an endpoint that will send data from extract and send data from mongodb.
+to receive data at frontend -How to display that data dynamically using product card created earlier.
+
+Wrote an endpoint that will send all products data to frontend In frontend write an function to get all the data Display these data dynamically passing to product card component
