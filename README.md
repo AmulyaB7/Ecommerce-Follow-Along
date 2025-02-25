@@ -231,5 +231,25 @@ In this milestone, I implemented the functionality to edit previously uploaded p
    - Integrated the update API with MongoDB to modify the existing product entry based on user input.  
 
 
+## milestone 14
+**Milestone 14: Deleting Data Through API Using API Client**  
 
+#### **Overview**  
+In this milestone, I implemented the functionality to delete products from MongoDB. This involved:  
+- Creating an API endpoint to delete a product by its ID.  
+- Adding a "Delete" button to each product card in the frontend.  
+- Sending the product ID to the backend when the delete button is clicked.  
+- Removing the deleted product from the UI dynamically.  
 
+#### **Implementation Details**  
+1. **Backend: API Endpoint for Deleting Data**  
+   - Created a new `DELETE` route in the backend.  
+   - Used Mongoose to find and remove a product by its ID in MongoDB.  
+
+2. **Frontend: Delete Button and API Call**  
+   - Added a "Delete" button on each product card.  
+   - When clicked, it sends the product ID to the backend via an API request.  
+   - After a successful deletion, the product is removed from the UI without requiring a page refresh.  
+
+3. **Database: Removing Product Entry**  
+   - Integrated the delete API with MongoDB to remove the specified product permanently.  
