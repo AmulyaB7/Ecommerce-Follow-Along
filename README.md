@@ -204,3 +204,32 @@ Wrote an endpoint that will send all products with user mail to frontend In fron
 
 to write an endpoint that will send data by filtering with my mail and send data from mongodb.
 to receive data at frontend -How to display that data dynamically using product card created earlier.
+
+## milestone 13
+
+
+**Milestone 13: Modifying Data Through API Using API Client**  
+
+#### **Overview**  
+In this milestone, I implemented the functionality to edit previously uploaded products. This involved:  
+- Creating an API endpoint to update existing product data in MongoDB.  
+- Adding an "Edit" button to each product card in the frontend.  
+- Autofilling the form with the existing product details when editing.  
+- Allowing users to modify and save the updated details.  
+
+#### **Implementation Details**  
+1. **Backend: API Endpoint for Updating Data**  
+   - Created a new route in the backend to handle `PUT` requests for updating a product in MongoDB.  
+   - Used Mongoose to find the existing product by its ID and update the fields with the new values.  
+
+2. **Frontend: Edit Button and Auto-fill Form**  
+   - Added an "Edit" button on the product card.  
+   - When clicked, it fetches the product details and pre-fills the form.  
+   - Users can modify the data and submit it to update the product.  
+
+3. **Database: Updating Product Details**  
+   - Integrated the update API with MongoDB to modify the existing product entry based on user input.  
+
+
+
+
