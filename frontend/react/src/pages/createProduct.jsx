@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { AiOutlinePlusCircle } from "react-icons/ai";
 import axios from "axios";
+import Nav from "..components/Nav";
 
 
 const CreateProduct = () => {
@@ -86,6 +87,8 @@ const CreateProduct = () => {
 
 
     return (
+        <>
+        <Nav />
         <div className="w-[90%] max-w-[500px] bg-white shadow h-auto rounded-[4px] p-4 mx-auto">
             <h5 className="text-[24px] font-semibold text-center">Create Product</h5>
             <form onSubmit={handleSubmit}>
@@ -217,6 +220,7 @@ const CreateProduct = () => {
                 </button>
             </form>
         </div>
+        </>
     );
 };
 
