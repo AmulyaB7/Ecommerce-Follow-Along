@@ -253,3 +253,21 @@ In this milestone, I implemented the functionality to delete products from Mongo
 
 3. **Database: Removing Product Entry**  
    - Integrated the delete API with MongoDB to remove the specified product permanently.  
+
+# Milestone 15
+
+we will create and Navbar component and add nav component to every screen.
+-How to create and Nav component.
+-How to reuse the same component in multiple pages.
+
+# Milestone 16
+
+we will create an product info page that display all the product data and choose quantity and add to card button.
+-How to new page to display each product.
+-How to add quantity and add to card button
+
+# Milestone 17
+
+we created an backend endpoint to add products to cart and store in database.
+-Edit the user schema to store cart products .
+-Write an end point to receive the product details and store in database.
