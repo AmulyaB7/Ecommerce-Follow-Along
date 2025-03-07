@@ -287,30 +287,14 @@ We will write the backend logic to fetch all the products inside user cart to di
 
 In this assignment, you successfully implemented a **shopping cart** feature with real-time quantity updates using both **frontend (React)** and **backend (Node.js/Express.js)**.
 
----
 
-### **✅ What You Accomplished:**
 1️⃣ **Created a Cart Page (`CartPage.jsx`)**  
    - Fetched cart products from the backend (`GET /cart`).  
    - Displayed **product image, name, price, and quantity**.  
    - Added **`+` and `-` buttons** to increase or decrease quantity.  
    - Used **Axios** to communicate with the backend.  
 
-2️⃣ **Built a Backend API (`server.js`)**  
-   - Created an **endpoint (`GET /cart`)** to send cart data to the frontend.  
-   - Developed an **endpoint (`POST /cart/update`)** to update product quantity.  
-   - Ensured that the **quantity updates dynamically** without a page refresh.  
 
 3️⃣ **Implemented State Management**  
    - Used **React useState & useEffect** to manage cart items.  
    - Updated cart data in real-time after modifying quantity.  
-
-
-
-### **🎯 Key Takeaways**
-✅ Successfully **displayed cart products** from an API.  
-✅ Allowed users to **increase/decrease quantity** with buttons.  
-✅ Used **React for UI, Express.js for backend, and Axios for API calls**.  
-✅ Implemented a **dynamic, interactive shopping cart experience**.  
-
-🚀 **Great job! This is a crucial step in building a complete eCommerce platform.** Let me know if you need any refinements! 🔥
