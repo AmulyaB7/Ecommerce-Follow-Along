@@ -271,3 +271,12 @@ we will create an product info page that display all the product data and choose
 we created an backend endpoint to add products to cart and store in database.
 -Edit the user schema to store cart products .
 -Write an end point to receive the product details and store in database.
+
+
+
+# Milestone 18
+
+we will create an Backend endpoint for the cart page.
+We will write the backend logic to fetch all the products inside user cart to display in cart page.
+-Create an endpoint to receive request from cart page.
+-Create an backend endpoint to fetch all the products inside cart with user mail.
