@@ -310,3 +310,27 @@ display profile photo, name, mail and addresses.
 
 ## Milestone 21
 
+Milestone 21 - Address Form Page
+Project Overview
+In this milestone, we created a frontend page for adding an address, allowing users to input and store their address details. The form includes fields for country, city, address lines, zip code, and address type, with basic validation and navigation.
+
+📜 Features Implemented
+✔️ Created a React component (AddressForm.jsx) for the address input form.
+✔️ Used React state (useState) to store form input values.
+✔️ Implemented React Router (useNavigate) to navigate from the profile page.
+✔️ Added validation to ensure required fields are filled.
+✔️ Created a dropdown for selecting address type (Home/Office).
+✔️ Logged the submitted data for further backend integration.
+
+## Milestone 22
+
+Milestone 22 - Backend Endpoint for Storing Address
+Project Overview
+In this milestone, we created a backend API endpoint to store user addresses in the database. The endpoint receives address details from the frontend and updates the user's profile by adding the address to an array in the user collection.
+
+📜 Features Implemented
+✔️ Created a POST API endpoint (/api/users/:userId/address) to receive address data.
+✔️ Integrated MongoDB (Mongoose) to store the address inside the user profile.
+✔️ Used Express.js to handle backend routes and requests.
+✔️ Implemented error handling for request validation and database operations.
+✔️ Ensured the address is stored inside the address array of the user collection.
