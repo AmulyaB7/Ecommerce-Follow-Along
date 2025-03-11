@@ -307,3 +307,6 @@ In this assignment, you successfully implemented a **shopping cart** feature wit
 Create and backend endpoint that will send all the user data using mail.
 Create an frontend profile page that will display all the user data
 display profile photo, name, mail and addresses.
+
+## Milestone 21
+
