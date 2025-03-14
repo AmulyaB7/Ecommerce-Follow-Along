@@ -359,3 +359,15 @@ In this milestone, we created a backend API endpoint to store user addresses in 
  Total price
  Timestamp
  Implemented an endpoint to store orders in the database.
+
+ # Milestone 24
+ 
+ Learning Goals 🎯
+By the end of this milestone,
+
+We will create an order conformation page.
+Steps for Milestone 24📝
+First we will display all the products we are ordering
+Next we will display the address user selected to deliver
+We will display the total value of the cart
+We will have an place order button at the bottom.
