@@ -379,3 +379,9 @@ Milestone 25: Place Order Endpoint
 Implemented a backend endpoint for placing orders.
 The endpoint receives user email, retrieves _id, and processes orders for each product.
 Stored order details in MongoDB using the previously created Order schema.
+
+# Milestone 26
+
+You need to create an endpoint that will receive the user mail
+You will get the mail of the user using that you need to retrive the _id of the user
+Using that _id you need to get all the orders of that user
