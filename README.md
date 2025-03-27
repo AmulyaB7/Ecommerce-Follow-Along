@@ -385,3 +385,45 @@ Stored order details in MongoDB using the previously created Order schema.
 You need to create an endpoint that will receive the user mail
 You will get the mail of the user using that you need to retrive the _id of the user
 Using that _id you need to get all the orders of that user
+
+# Milestone 27
+
+Milestone 27 - My Orders Page
+Project Overview
+In this milestone, we created a My Orders page to display all user orders by fetching data from the backend.
+
+Key Features Implemented
+✔️ Created a new page myOrders.jsx to display user orders.
+✔️ Integrated the GET request to fetch orders from the /my-orders endpoint.
+✔️ Passed the user's email as a parameter to retrieve their orders.
+✔️ Displayed all orders dynamically in the frontend.
+✔️ Added the My Orders page to the navbar for easy navigation.
+
+
+# Milestone 28
+
+Milestone 28 - Cancel Order Feature
+Project Overview
+In this milestone, we implemented the ability for users to cancel their orders from the My Orders page and created a backend API to handle order cancellations.
+
+Key Features Implemented
+✔️ Added a Cancel Order button for each order in myOrders.jsx.
+✔️ Ensured the button is not displayed for already canceled orders.
+✔️ Created a new backend endpoint /cancel-order to handle cancellation requests.
+✔️ Sent the order ID to the backend and updated the order status to "canceled".
+✔️ Saved the updated order status in the database.
+
+# Milestone 29
+
+Milestone 29 - Integrating PayPal Payment Gateway
+Project Overview
+In this milestone, we started integrating an online payment system into our application using the PayPal API. We have also provided users with the option to choose between Cash on Delivery (COD) or Online Payment.
+
+Key Features Implemented
+✔️ Created a PayPal Developer Account and set up a sandbox account.
+✔️ Retrieved and stored the PayPal Sandbox Client ID for future integration.
+✔️ Updated the Order Confirmation Page (orderConfirmation.jsx):
+
+Added radio buttons to select between COD and Online Payment.
+
+Displayed the PayPal button when "Online Payment" is selected (button implementation will be done in the next milestone).

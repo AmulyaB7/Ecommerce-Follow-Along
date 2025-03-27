@@ -3,7 +3,7 @@ import Login from "../pages/Login.jsx";
 import Signup from "../pages/Signup.jsx";
 import Home from "../pages/Home.jsx";
 // import CreateProduct from "../pages/CreateProduct.jsx";
-import CreateProduct from "../pages/createProduct.jsx";
+import 
 import MyProducts from "../pages/MyProducts.jsx";
 import Cart from "../pages/cart.jsx";
 import ProductDetails from "../pages/productDetails.jsx";
