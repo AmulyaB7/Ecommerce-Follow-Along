@@ -3,7 +3,8 @@ import React from 'react'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import './App.css'
 import {Login,Signup,Home, CreateProduct, MyProducts, Cart, ProductDetails, Profile, CreateAddress, SelectAddress} from "./Routes/Routes"
-import Home from './pages/Home'
+
+import MyOrdersPage from './pages/myOrders'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Route path='/Profile' element={<Profile/>}/>
       <Route path='/CreateAddress' element={<CreateAddress/>}/>
       <Route path='/SelectAddress' element={<SelectAddress/>}/>
+      <Route path='/myOrders' element={<MyOrdersPage/>}/>
     </Routes>
     </BrowserRouter>
   )
