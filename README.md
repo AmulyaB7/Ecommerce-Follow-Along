@@ -427,3 +427,15 @@ Key Features Implemented
 Added radio buttons to select between COD and Online Payment.
 
 Displayed the PayPal button when "Online Payment" is selected (button implementation will be done in the next milestone).
+
+
+
+# Milestone 30: PayPal Payment Integration & Navigation Enhancements
+
+In this milestone, we successfully integrated PayPal for seamless online payments and improved the application's navigation.
+
+Key Highlights:
+
+PayPal Integration: Configured a sandbox account, installed react-paypal-js, and implemented PayPal's API for secure transactions.
+Navigation Component: Built a responsive Nav component with React Router for smooth navigation across key pages (Home, My Products, Add Product, Cart).
+Responsive Design: Used CSS Flexbox and media queries to ensure adaptability across all screen sizes, with a hamburger menu for mobile users.
